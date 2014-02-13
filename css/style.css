@@ -213,7 +213,17 @@ section#doctorsReport {
     background: url('../images/doctors-report.jpg') no-repeat;
 }
 section#FAQ {
-    height: 100%
+    height: 580px;
+    background: url('../images/FAQ.jpg') no-repeat;
+}
+section#campaign2 {
+    height: 575px;
+    margin-bottom: 60px;
+    background: url('../images/campaign2.jpg') no-repeat;
+}
+section#periodical {
+    height: 497px;
+    background: url('../images/periodical.jpg') no-repeat;
 }
 
 
