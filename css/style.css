@@ -1,0 +1,354 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  /*background-color: #333;*/
+}
+body {
+  color: #000;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+}
+header.row {
+    /* sync container's padding */
+    margin: 0;
+}
+nav li {
+    list-style: none;
+}
+header nav a {
+    color: rgb(255,255,255);
+}
+h1 {
+    margin-top: 0;
+    line-height: 0;
+}
+
+.without-outer-padding {
+    padding: 0;
+}
+
+/* custom */
+.container {
+    width: 100%;
+    padding: 0;
+}
+.container h1, .container section {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hide-text {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.under-border {
+    border-bottom: solid 1px rgba(0 9 0 0);
+}
+header#logo h1 {
+    width: 970px;
+    height: 60px;
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+}
+section {
+    width: 970px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+section#itemImage{
+    height: 490px;
+    background: url('../images/itemImage.jpg') no-repeat;
+}
+section.campaign1 {
+    height: 406px;
+    padding-bottom: 30px;
+    background: url('../images/campaign1.jpg') no-repeat;
+}
+section#introduced {
+    height: 200px;
+    border-bottom: solid 1px rgba(3 9 3 0);
+}
+section#introduced header {
+    float: left;
+    margin-left: 65px;
+    background: url('../images/cleansing.jpg') no-repeat;
+}
+section#introduced header h2 {
+    width: 285px;
+    height: 115px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px rgba(3 9 3 0);
+}
+section#introduced p {
+    font-size: 76%;
+}
+section#introduced div {
+    float: right;
+    margin-right : 20px;
+}
+section#introduced div img {
+    margin-bottom: 14px;
+}
+section#worst5 {
+    height: 433px;
+    background: url('../images/wrong-skin-care.jpg') no-repeat;
+}
+section#change-your-cleansing {
+    height: 125px;
+    background: url('../images/change-your-cleansing.jpg') no-repeat;
+}
+
+article.background-purple {
+    padding-top: 15px;
+    background-color: rgb(234,236,247);
+}
+article.background-pink {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    background-color: rgb(255,236,229);
+}
+article.background-blue {
+    padding-top: 15px;
+    background-color: rgb(185,219,240);
+}
+section#remarkable h2 {
+    height: 135px;
+    padding-top: 10px;
+    background: url('../images/remarkable-header.jpg') no-repeat;
+}
+section#remarkable section {
+    margin-bottom: 8px;
+}
+section#remarkable h3 {
+    margin-top: 0;
+}
+section#remarkablePoint1 {
+    height: 785px;
+    background: url('../images/remarkable-point1.jpg') no-repeat;
+}
+section#remarkablePoint2 {
+    height: 385px;
+    background: url('../images/remarkable-point2.jpg') no-repeat;
+}
+section#remarkablePoint3 {
+    float: left;
+    width: 481px;
+    height: 494px;
+    background: url('../images/remarkable-point3.jpg') no-repeat;
+}
+section#remarkablePoint4 {
+    float: right;
+    width: 481px;
+    height: 494px;
+    background: url('../images/remarkable-point4.jpg') no-repeat;
+}
+section#remarkablePoint5 {
+    clear: both;
+    height: 232px;
+    background: url('../images/remarkable-point5.jpg') no-repeat;
+}
+section#enquete h2 {
+    height: 250px;
+    background: url('../images/no-double-cleansing.jpg') no-repeat;
+}
+section#enquete div {
+    height: 500px;
+    background: url('../images/enquete.jpg') no-repeat;
+}
+section#breakMyBest h2 {
+    height: 220px;
+    background: url('../images/break-my-best.jpg') no-repeat;
+}
+section#voiceInBreakMyBest1 {
+    height: 250px;
+    background: url('../images/voice-in-break-my-best1.jpg') no-repeat;
+}
+section#voiceInBreakMyBest2 {
+    height: 250px;
+    background: url('../images/voice-in-break-my-best2.jpg') no-repeat;
+}
+section#voiceInBreakMyBest3 {
+    height: 250px;
+    background: url('../images/voice-in-break-my-best3.jpg') no-repeat;
+}
+section#blogger h3 {
+    height: 100px;
+    background: url('../images/header-blogger.jpg') no-repeat;
+}
+section#blogger ul {
+    height: 355px;
+    background: url('../images/blogger.jpg') no-repeat;
+}
+section#doctorsReport {
+    height: 550px;
+    background: url('../images/doctors-report.jpg') no-repeat;
+}
+section#FAQ {
+    height: 100%
+}
+
+
+
+
+
+
+
+
+
+
+.site-wrapper {
+  display: table;
+  width: 100%;
+  max-width: 960px;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  margin: 0 auto;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 0 10px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000; /* IE8 proofing */
+  color: rgba(0,0,0,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+/*
+ * Footer
+ */
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+/*
+for debug
+*/
