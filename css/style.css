@@ -6,17 +6,18 @@
 a,
 a:focus,
 a:hover {
-
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+    color: #333;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #fff;
+    border: 1px solid #fff;
 }
 
 
@@ -26,14 +27,14 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  /*background-color: #333;*/
+    height: 100%;
+    /*background-color: #333;*/
 }
 body {
-  color: #000;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
-  /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
 header.row {
     /* sync container's padding */
@@ -53,8 +54,6 @@ h1 {
 .without-outer-padding {
     padding: 0;
 }
-
-/* custom */
 .container {
     width: 100%;
     padding: 0;
@@ -69,112 +68,141 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
 }
-.under-border {
-    border-bottom: solid 1px rgba(0 9 0 0);
+.narrow {
+    padding-left: 60px;
+    padding-right: 60px;
 }
-header#logo h1 {
-    width: 970px;
-    height: 60px;
-    background-image: url('../images/header.jpg');
-    background-repeat: no-repeat;
+.under-border {
+    border-bottom: solid 1px rgb(0,9,0);
 }
 section {
     width: 970px;
+    padding-bottom: 30px;
     margin-bottom: 10px;
     text-align: left;
 }
-section#itemImage{
-    height: 490px;
-    background: url('../images/itemImageC.jpg') no-repeat;
+@media (max-width: 992px) {
+    section {
+        width: 100%;
+    }
 }
-section.campaign1 {
-    height: 406px;
-    padding-bottom: 30px;
-    background: url('../images/campaign1.jpg') no-repeat;
+article {
+    padding-top: 6px;
+    padding-bottom: 10px;
 }
-section#introduced {
-    height: 200px;
-    border-bottom: solid 1px rgba(3 9 3 0);
+article.background-purple {
+    background-color: rgb(234,236,247);
 }
-section#introduced header {
-    float: left;
-    margin-left: 65px;
-    background: url('../images/cleansing.jpg') no-repeat;
+article.background-pink {
+    background-color: rgb(255,236,229);
 }
+article.background-blue {
+    background-color: rgb(185,219,240);
+}
+img.header-sm {
+    display: none;
+}
+@media (max-width: 992px) {
+    img.header-md {
+        display: none;
+    }
+    img.header-sm {
+        display: block;
+    }
+}
+/* custom */
+
 section#introduced header h2 {
     width: 285px;
     height: 115px;
     padding-bottom: 15px;
-    border-bottom: solid 2px rgba(3 9 3 0);
+    border-bottom: 1px solid rgba(168,164,192,1);
+    box-shadow: 0 1px 0 0 rgba(120,120,158,1);
+}
+section#introduced div {
+    margin-top: 20px;
 }
 section#introduced p {
     font-size: 76%;
 }
-section#introduced div {
-    float: right;
-    margin-right : 20px;
+section#wrong-skin-care {
 }
-section#introduced div img {
-    margin-bottom: 14px;
-}
-section#worst5 {
+div#worst5 {
+    width: 846px;
     height: 433px;
-    background: url('../images/wrong-skin-care.jpg') no-repeat;
+    background: url('../images/background-wrong-skin-care.jpg') no-repeat;
 }
-section#change-your-cleansing {
-    height: 125px;
-    background: url('../images/change-your-cleansing.jpg') no-repeat;
+@media (max-width: 992px) {
+    div#worst5 {
+        width: 100%;
+        background-image: none;
+    }
 }
-
-article.background-purple {
-    padding-top: 15px;
-    background-color: rgb(234,236,247);
-}
-article.background-pink {
-    padding-top: 15px;
-    padding-bottom: 10px;
-    margin-bottom: 0;
-    background-color: rgb(255,236,229);
-}
-article.background-blue {
-    padding-top: 15px;
-    background-color: rgb(185,219,240);
-}
-section#remarkable h2 {
-    height: 135px;
-    padding-top: 10px;
-    background: url('../images/remarkable-header.jpg') no-repeat;
-}
-section#remarkable section {
-    margin-bottom: 8px;
-}
-section#remarkable h3 {
-    margin-top: 0;
-}
-section#remarkablePoint1 {
-    height: 785px;
-    background: url('../images/remarkable-point1.jpg') no-repeat;
-}
-section#remarkablePoint2 {
-    height: 385px;
-    background: url('../images/remarkable-point2.jpg') no-repeat;
-}
-section#remarkablePoint3 {
+section#worst5-list h2 {
     float: left;
-    width: 481px;
-    height: 494px;
-    background: url('../images/remarkable-point3.jpg') no-repeat;
+    padding: 38px 0 0 38px;
+    margin: 0;
 }
-section#remarkablePoint4 {
-    float: right;
-    width: 481px;
-    height: 494px;
-    background: url('../images/remarkable-point4.jpg') no-repeat;
+section#worst5-list ul {
+    float: left;
+    margin: 42px 0 0 20px;
+    font-size: 90%;
 }
+@media (max-width: 992px) {
+    section#worst5-list ul {
+        clear: both;
+        padding: 10px;
+        background-color: rgb(255,246,218);
+    }
+}
+section#worst5-list li {
+    margin-bottom: 25px;
+}
+section#remarkablePoint1,
+section#remarkablePoint2,
+section#remarkablePoint3,
+section#remarkablePoint4,
 section#remarkablePoint5 {
+    background-color: rgb(255,255,255);
+}
+section#remarkablePoint1 h3 p {
+    display: block;
+    margin: -29px 0 0 66px;
+    font-size: 66%;
+}
+section#remarkablePoint1 dl,
+section#remarkablePoint1 ul {
+    min-height: 105px;
+    padding: 0 63px;
+    margin-top: 30px;
+}
+section#remarkablePoint1 dt {
+    margin-bottom: 15px
+}
+div#remarkable-point1-answer-text {
+    padding-top: 10px;
+    line-height: 170%;
+}
+section#remarkablePoint1 dd div:first-child img {
+    float: left;
+}
+section#remarkablePoint1 dd div:first-child div {
+    float: left;
+    width: 89%;
+    padding-left: 3%;
+}
+ul#remarkable-point1-ingredients:after {
+    content: "";
+    display: block;
     clear: both;
-    height: 232px;
-    background: url('../images/remarkable-point5.jpg') no-repeat;
+}
+ul#remarkable-point1-ingredients li {
+    float: left;
+    height: 105px;
+    padding-right: 5px;
+}
+ul#remarkable-point1-ingredients li:first-child {
+    padding-right: 8px;
 }
 section#enquete h2 {
     height: 250px;
