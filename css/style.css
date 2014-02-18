@@ -86,6 +86,9 @@ section {
         width: 100%;
     }
 }
+div.row {
+    margin: 0;
+}
 article {
     padding-top: 6px;
     padding-bottom: 10px;
@@ -94,7 +97,7 @@ article.background-purple {
     background-color: rgb(234,236,247);
 }
 article.background-pink {
-    background-color: rgb(255,236,229);
+    background-color: rgb(255,228,225);
 }
 article.background-blue {
     background-color: rgb(185,219,240);
@@ -161,8 +164,7 @@ section#worst5-list li {
 section#remarkablePoint1,
 section#remarkablePoint2,
 section#remarkablePoint3,
-section#remarkablePoint4,
-section#remarkablePoint5 {
+section#remarkablePoint4 {
     background-color: rgb(255,255,255);
 }
 section#remarkablePoint1 h3 p {
@@ -191,11 +193,11 @@ section#remarkablePoint1 dd div:first-child div {
     width: 89%;
     padding-left: 3%;
 }
-ul#remarkable-point1-ingredients:after {
+/*ul#remarkable-point1-ingredients:after {
     content: "";
     display: block;
     clear: both;
-}
+}*/
 ul#remarkable-point1-ingredients li {
     float: left;
     height: 105px;
@@ -204,29 +206,95 @@ ul#remarkable-point1-ingredients li {
 ul#remarkable-point1-ingredients li:first-child {
     padding-right: 8px;
 }
+section#remarkablePoint2 {
+    padding: 25px 63px;
+}
+section#remarkablePoint2 .right {
+    padding-top: 45px;
+    padding-left: 0;
+}
+section.remarkablePointHalf {
+    width: 49.5%;
+    padding: 25px 63px;
+}
+section.remarkablePointHalf.right {
+    margin-left: 1%;
+}
+section#remarkablePointExtra {
+    padding: 0;
+}
+section#remarkablePointExtra ol {
+    height: 228px;
+    padding: 36px 0 0 22px;
+    background: url('../images/header-remarkable-point-extra.jpg') no-repeat;
+}
+section#remarkablePointExtra ol li {
+    float: left;
+    width: 195px;
+}
+section#remarkablePointExtra ol li:before {
+    content: url('../images/button-next.jpg');
+    float: left;
+    margin-right: 15px;
+    line-height: 1200%;
+}
+section#remarkablePointExtra ol li:first-child {
+    width: 158px;
+}
+section#remarkablePointExtra ol li:first-child:before {
+    content: '';
+}
+section#remarkablePointExtra ul {
+    position: relative;
+    margin-top: 20px
+}
 section#enquete h2 {
-    height: 250px;
-    background: url('../images/no-double-cleansing.jpg') no-repeat;
+    margin-bottom: 60px;
+}
+section#enquete h2 p {
+    padding-top: 10px;
+    font-size: 35%;
 }
 section#enquete div {
     height: 500px;
     background: url('../images/enquete.jpg') no-repeat;
 }
-section#breakMyBest h2 {
-    height: 220px;
-    background: url('../images/break-my-best.jpg') no-repeat;
+
+section.voiceInBreakMyBest {
+    color: rgb(27, 29, 92);
+    text-shadow: none;
 }
-section#voiceInBreakMyBest1 {
-    height: 250px;
-    background: url('../images/voice-in-break-my-best1.jpg') no-repeat;
+section.voiceInBreakMyBest h3 {
+    margin: 0 0 30px 0;
+    font-size: 215%;
+    font-weight: normal;
 }
-section#voiceInBreakMyBest2 {
-    height: 250px;
-    background: url('../images/voice-in-break-my-best2.jpg') no-repeat;
+section.voiceInBreakMyBest .face {
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.2);
 }
-section#voiceInBreakMyBest3 {
-    height: 250px;
-    background: url('../images/voice-in-break-my-best3.jpg') no-repeat;
+section.voiceInBreakMyBest .age {
+    font-size: 120%;
+    color: rgb(249,133,133);
+}
+section.voiceInBreakMyBest .age em {
+    font-size: 220%;
+}
+section.voiceInBreakMyBest .history {
+    font-size: 160%;
+}
+section.voiceInBreakMyBest .gap {
+    font-size: 160%;
+}
+section.voiceInBreakMyBest .gap em {
+    font-size: 190%;
+    font-style: normal;
+}
+section.voiceInBreakMyBest .opinion {
+    font-size: 130%;
+}
+section.voiceInBreakMyBest strong {
+    color: rgb(231,59,89);
+    text-decoration: underline;
 }
 section#blogger h3 {
     height: 100px;
