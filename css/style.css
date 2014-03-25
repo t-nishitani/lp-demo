@@ -1,7 +1,10 @@
+body {
+  background-color: #FFF;
+}
 section {
   margin-bottom: 80px;
 }
-h1 {
+h1,h2 {
   margin: 0;
 }
 ul {
@@ -56,6 +59,9 @@ div[class*="bg-"] {
 #main-header {
   height: 520px;
 }
+h2#first-time-only {
+  height: 100px;
+}
 /* ゲルLP */
 #moist-gel #main-header {
   background: #FFF url('../images/gel/background.jpg') no-repeat scroll center 0;
@@ -88,9 +94,6 @@ div[class*="bg-"] {
 #moist-gel #main-header ul li {
   float: left;
   margin-right: 7px;
-}
-h2#first-time-only {
-  height: 100px;
 }
 #moist-gel #reason section {
   margin-bottom: 20px;
@@ -143,4 +146,65 @@ h2#first-time-only {
 #moist-gel #periodical div {
   position: absolute;
   top: 450px;
+}
+/* クレンジングLP */
+#cleansing #main-header {
+  z-index: -999;
+  height: 1318px;
+  background: #FFF url('../images/cleansing/background.png') no-repeat scroll center 0;
+}
+#cleansing #main-header section {
+  position: relative;
+}
+#cleansing #main-header div {
+  position: relative;
+  height: 520px;
+}
+#cleansing #main-header img,
+#cleansing #header-offer img {
+  position: absolute;
+}
+#cleansing #main-header img#banner-header-icon {
+  top: 0;
+  left: 130px;
+}
+#cleansing #main-header img#banner-header1 {
+  top: 0;
+  left: 267px;
+}
+#cleansing #main-header img#banner-header2 {
+  top: 169px;
+  left: 267px;
+}
+#cleansing #main-header img#banner-header3 {
+  top: 260px;
+  left: 130px;
+}
+#cleansing #main-header img#banner-header4 {
+  top: 360px;
+  left: 130px;
+}
+#cleansing #header-offer {
+  position: relative;
+  height: 1600px;
+  min-width: 780px;
+  background: rgba(255,255,255,0) url('../images/cleansing/header-main-offer.png') no-repeat scroll center 0;
+}
+#cleansing #header-offer h2 {
+  position: absolute;
+  top: 90px;
+  left: 185px;
+  width: 590px;
+  margin: 0;
+}
+#cleansing #header-offer > img {
+  top: 472px;
+  left: 185px;
+}
+#cleansing #header-offer a img {
+  top: 645px;
+  left: 185px;;
+}
+#cleansing #no-double-cleansing div {
+  margin-top: 50px;
 }
