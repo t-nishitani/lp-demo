@@ -37,11 +37,18 @@ div[class*="bg-"] {
 .bg-yellow {
   background-color: rgb(255,245,218);
 }
+.bg-white {
+  background-color: rgb(255,255,255);
+}
 .left {
   float: left;
 }
 .right {
   float: right;
+}
+.btn-shadow {
+  border-radius: 10px;
+  box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.3), 0 0 35px 0px rgba(0, 0, 0, 0.3) inset
 }
 
 #global-header {
@@ -61,6 +68,55 @@ div[class*="bg-"] {
 }
 h2#first-time-only {
   height: 100px;
+}
+#enquete li {
+  height: 256px;
+  margin-bottom: 35px;
+}
+#enquete .face {
+  width: 200px;
+  margin-right: 30px;
+}
+#enquete .description {
+  width: 740px;
+  height: 256px;
+}
+#enquete .description div {
+  height: 216px;
+}
+#enquete .monitor-profile,
+#enquete .monitor-opinion {
+  height: 165px;
+  margin: 35px 0 0  0 ;
+}
+#enquete .monitor-profile {
+  width: 200px;
+  margin-right: 30px;
+}
+#enquete .monitor-opinion {
+  width: 510px;
+  line-height: 2.1em;
+}
+#blogger ul {
+  height: 344px;
+}
+#blogger li {
+  float: left;
+  width: 295px;
+  margin-right: 42.5px;
+}
+#blogger li:last-child {
+  margin-right: 0;
+}
+#blogger li div {
+  width: 200px;
+}
+#periodical {
+  position: relative;
+}
+#periodical div {
+  position: absolute;
+  top: 450px;
 }
 /* ゲルLP */
 #moist-gel #main-header {
@@ -98,55 +154,7 @@ h2#first-time-only {
 #moist-gel #reason section {
   margin-bottom: 20px;
 }
-#moist-gel #enquete li {
-  height: 256px;
-  margin-bottom: 35px;
-}
-#moist-gel #enquete .face {
-  width: 200px;
-  margin-right: 30px;
-}
-#moist-gel #enquete .description {
-  width: 740px;
-  height: 256px;
-}
-#moist-gel #enquete .description div {
-  height: 216px;
-}
-#moist-gel #enquete .monitor-profile,
-#moist-gel #enquete .monitor-opinion {
-  height: 165px;
-  margin: 35px 0 0  0 ;
-}
-#moist-gel #enquete .monitor-profile {
-  width: 200px;
-  margin-right: 30px;
-}
-#moist-gel #enquete .monitor-opinion {
-  width: 510px;
-  line-height: 2.1em;
-}
-#moist-gel #blogger ul {
-  height: 344px;
-}
-#moist-gel #blogger li {
-  float: left;
-  width: 295px;
-  margin-right: 42.5px;
-}
-#moist-gel #blogger li:last-child {
-  margin-right: 0;
-}
-#moist-gel #blogger li div {
-  width: 200px;
-}
-#moist-gel #periodical {
-  position: relative;
-}
-#moist-gel #periodical div {
-  position: absolute;
-  top: 450px;
-}
+
 /* クレンジングLP */
 #cleansing #main-header {
   z-index: -999;
@@ -161,7 +169,7 @@ h2#first-time-only {
   height: 520px;
 }
 #cleansing #main-header img,
-#cleansing #header-offer img {
+#cleansing .main-offer img {
   position: absolute;
 }
 #cleansing #main-header img#banner-header-icon {
@@ -184,27 +192,41 @@ h2#first-time-only {
   top: 360px;
   left: 130px;
 }
-#cleansing #header-offer {
+#cleansing .main-offer {
   position: relative;
-  height: 1600px;
-  min-width: 780px;
-  background: rgba(255,255,255,0) url('../images/cleansing/header-main-offer.png') no-repeat scroll center 0;
+  width: 1285px;
+  height: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../images/cleansing/header-main-offer.png');
+  background-color: rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  overflow: visible;
 }
-#cleansing #header-offer h2 {
+#cleansing .main-offer h2 {
   position: absolute;
   top: 90px;
-  left: 185px;
+  left: 30px;
   width: 590px;
   margin: 0;
 }
-#cleansing #header-offer > img {
+#cleansing .main-offer > img {
   top: 472px;
-  left: 185px;
+  left: 30px;
 }
-#cleansing #header-offer a img {
+#cleansing .main-offer a img {
   top: 645px;
-  left: 185px;;
+  left: 30px;;
+}
+#cleansing #header-offer {
+  top: 520px;
+}
+#cleansing .sub-offer {
+  margin-top: 80px;
 }
 #cleansing #no-double-cleansing div {
   margin-top: 50px;
+}
+#cleansing #offer-long {
+  padding-top: 80px;
 }
