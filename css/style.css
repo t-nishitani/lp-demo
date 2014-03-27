@@ -234,3 +234,55 @@ h2#first-time-only {
 #cleansing #offer-long {
   padding-top: 80px;
 }
+article div:last-child {
+  padding-bottom: 40px;
+}
+article div:last-child section {
+  margin-bottom: 0;
+}
+/* フッター用 */
+.pagetop a {
+  width: 96px;
+  height: 19px;
+  float: right;
+}
+footer {
+  font-size: 62.5%;
+}
+footer a {
+  color: #354658;
+}
+footer a:hover {
+  text-decoration: none;
+}
+.pagetop {
+  height: 20px;
+  margin-bottom: 7px;
+}
+#footer-navi {
+  padding: 8px 0 8px 2px;
+  border-top: 1px solid #DDDDDD;
+}
+#footer-navi ul {
+  margin: 0;
+}
+#footer-navi ul li {
+  display: inline;
+}
+#footer-navi ul li:before {
+  content: '| ';
+}
+#copyright {
+  height: 100px;
+  padding: 17px 0 0;
+  letter-spacing: 0;
+  color: #C1C5CB;
+  background-color: #0E1F36;
+}
+#copyright p {
+  text-align: right;
+}
+div#script {
+  line-height: 0;
+  font-size: 0;
+}
