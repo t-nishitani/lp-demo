@@ -1,6 +1,6 @@
 body {
-    padding-top: 20px;
     background-color: #FFF;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
 }
 section {
     margin-bottom: 25px;
@@ -22,6 +22,9 @@ em {
     color: red;
     text-decoration: underline;
     font-style: normal;
+}
+.text {
+    line-height: 1.8em;
 }
 .btn img {
     border-radius: 6px;
@@ -100,7 +103,7 @@ div.bg-white {
     font-size: 13px;
 }
 #cleansing #voice1 {
-    top: -880px;
+    top: -887px;
 }
 #cleansing #voice2 {
     top: -695px;
