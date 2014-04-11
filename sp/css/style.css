@@ -72,6 +72,10 @@ div.bg-white {
 #main-header {
     margin-bottom: 40px
 }
+div#script {
+    line-height: 0;
+    font-size: 0;
+}
 
 /* cleansing */
 #cleansing #no-double-cleansing header,
