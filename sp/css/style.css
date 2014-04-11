@@ -1,0 +1,130 @@
+body {
+    background-color: #FFF;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+section {
+    margin-bottom: 25px;
+}
+section:last-child {
+    margin-bottom: 0;
+}
+img {
+  width: 100%;
+}
+h1,h2 {
+    margin: 0;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+em {
+    color: red;
+    text-decoration: underline;
+    font-style: normal;
+}
+.text {
+    line-height: 1.8em;
+}
+.btn img {
+    border-radius: 6px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4),0 1px 1px 1px rgba(0,0,0,.4) inset;
+}
+.btn.btn-offer img {
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,.3), 1px 1px 1px rgba(0,0,0,.3) inset;
+}
+.container {
+    width: 320px;
+    margin: 0 auto;
+}
+.main-column {
+    width: 300px;
+    padding: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+section[class*="bg-"],
+div[class*="bg-"] {
+  padding: 30px 0;
+  margin-bottom: 40px;
+}
+section.bg-white,
+div.bg-white {
+    padding: 0;
+    margin-bottom: 0;
+}
+.bg-white * {
+    background-color: rgb(255,255,255);
+}
+.bg-pink {
+    background-color: rgb(255,233,236);
+}
+.bg-blue {
+    background-color: rgb(187,219,243);
+}
+.btn.small {
+    width: 280px;
+    margin: 0 auto;
+}
+.toggle-target {
+    display: none;
+}
+#main-header {
+    margin-bottom: 40px
+}
+div#script {
+    line-height: 0;
+    font-size: 0;
+}
+
+/* cleansing */
+#cleansing #no-double-cleansing header,
+#cleansing #no-double-cleansing header *,
+#cleansing #no-double-cleansing section:last-child {
+    background-color: rgb(255,233,236);
+}
+#cleansing #enquete {
+    position: relative;
+    margin-bottom: 0;
+}
+#cleansing #enquete .bg-pink {
+    margin-bottom: 0;
+}
+#cleansing #enquete > div > section {
+    margin-bottom: 0;
+}
+#cleansing .voice {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    font-size: 12px;
+}
+#cleansing .blogger {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    text-align: center;
+    font-size: 13px;
+}
+#cleansing #voice1 {
+    top: -887px;
+}
+#cleansing #voice2 {
+    top: -695px;
+}
+#cleansing #voice3 {
+    top: -505px;
+}
+#cleansing #blogger1 {
+    top: -270px;
+}
+#cleansing #blogger2 {
+    top: -60px;
+}
+#cleansing #doctor header,
+#cleansing #doctor div,
+#cleansing #qa header,
+#cleansing #qa div {
+    margin-bottom: 25px;
+}
+}

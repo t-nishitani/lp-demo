@@ -5,6 +5,9 @@ body {
 section {
   margin-bottom: 80px;
 }
+section:last-child {
+  margin-bottom: 0;
+}
 h1,h2 {
   margin: 0;
 }
@@ -23,7 +26,10 @@ em {
   margin-right: auto;
 }
 div[class*="bg-"] {
-  padding: 40px 0 80px 0;
+  padding: 40px 0 40px 0;
+}
+.bg-white {
+  /* pass */
 }
 .bg-red {
   background-color: rgb(235,46,86);
@@ -67,6 +73,7 @@ div[class*="bg-"] {
   font-weight: bold;
 }
 #main-header {
+  min-width: 970px;
   height: 520px;
 }
 h2#first-time-only {
@@ -161,44 +168,42 @@ h2#first-time-only {
 /* クレンジングLP */
 #cleansing #main-header {
   z-index: -999;
-  height: 1318px;
-  background: #FFF url('../images/cleansing/background.png') no-repeat scroll center 0;
-}
-#cleansing #main-header section {
-  position: relative;
+  height: 1190px;
+  background: #FFF url('../images/cleansing/background.jpg') no-repeat scroll center 0;
 }
 #cleansing #main-header div {
   position: relative;
-  height: 520px;
+}
+#cleansing #main-header header {
+  height: 610px;
 }
 #cleansing #main-header img,
 #cleansing .main-offer img {
   position: absolute;
 }
 #cleansing #main-header img#banner-header-icon {
-  top: 0;
-  left: 130px;
+  top: 30px;
+  left: 150px;
 }
 #cleansing #main-header img#banner-header1 {
-  top: 0;
-  left: 267px;
+  top: 30px;
+  left: 325px;
 }
 #cleansing #main-header img#banner-header2 {
-  top: 169px;
-  left: 267px;
+  top: 221px;
+  left: 303px;
 }
 #cleansing #main-header img#banner-header3 {
-  top: 260px;
-  left: 130px;
+  top: 318px;
+  left: 131px;
 }
 #cleansing #main-header img#banner-header4 {
-  top: 360px;
+  top: 427px;
   left: 130px;
 }
 #cleansing .main-offer {
   position: relative;
-  width: 1285px;
-  height: 780px;
+  height: 580px;
   margin-left: auto;
   margin-right: auto;
   background-image: url('../images/cleansing/header-main-offer.png');
@@ -206,24 +211,17 @@ h2#first-time-only {
   background-repeat: no-repeat;
   overflow: visible;
 }
-#cleansing .main-offer h2 {
+#cleansing .main-offer img {
   position: absolute;
-  top: 90px;
-  left: 30px;
-  width: 590px;
+  top: 85px;
+  left: 25px;
   margin: 0;
 }
-#cleansing .main-offer > img {
-  top: 472px;
-  left: 30px;
-}
 #cleansing .main-offer a img {
-  top: 645px;
+  top: 460px;
   left: 30px;;
 }
-#cleansing #header-offer {
-  top: 520px;
-}
+
 #cleansing .sub-offer {
   margin-top: 80px;
 }
