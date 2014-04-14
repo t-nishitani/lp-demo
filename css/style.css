@@ -130,11 +130,13 @@ h2#first-time-only {
 }
 /* ゲルLP */
 #moist-gel #main-header {
+  margin-bottom: 0;
   background: #FFF url('../images/gel/background.jpg') no-repeat scroll center 0;
 }
 #moist-gel #main-header div {
   position: relative;
   height: 520px;
+  padding-bottom: 0;
 }
 #moist-gel #main-header header img {
   position: absolute;
