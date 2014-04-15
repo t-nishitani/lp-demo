@@ -14,7 +14,7 @@ img {
 h1,h2 {
     margin: 0;
 }
-ul {
+ul,ol {
     padding: 0;
     list-style: none;
 }
@@ -25,6 +25,9 @@ em {
 }
 .text {
     line-height: 1.8em;
+}
+.text-center {
+    text-align: center;
 }
 .btn img {
     border-radius: 6px;
@@ -127,4 +130,33 @@ div#script {
 #cleansing #qa div {
     margin-bottom: 25px;
 }
+
+/* ゲル */
+#gel #voice {
+    padding: 0;
+    margin-bottom: 0;
+}
+#gel #voice .text {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    font-size: 12px;
+}
+#gel em {
+    font-weight: bold;
+}
+#gel #voice1 {
+    top: -920px;
+}
+#gel #voice2 {
+    top: -730px;
+}
+#gel #voice3 {
+    top: -540px;
+}
+#gel #blogger1 {
+    top: -295px;
+}
+#gel #blogger2 {
+    top: -90px;
 }
