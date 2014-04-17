@@ -11,7 +11,7 @@ section:last-child {
 h1,h2 {
   margin: 0;
 }
-ul {
+ul,ol {
   padding: 0;
   list-style: none;
 }
@@ -43,6 +43,9 @@ div[class*="bg-"] {
 }
 .bg-yellow {
   background-color: rgb(255,245,218);
+}
+.bg-green {
+  background-color: rgb(248,249,204);
 }
 .bg-white {
   background-color: rgb(255,255,255);
@@ -128,111 +131,6 @@ h2#first-time-only {
   position: absolute;
   top: 450px;
 }
-/* ゲルLP */
-#moist-gel #main-header {
-  margin-bottom: 0;
-  background: #FFF url('../images/gel/background.jpg') no-repeat scroll center 0;
-}
-#moist-gel #main-header div {
-  position: relative;
-  height: 520px;
-  padding-bottom: 0;
-}
-#moist-gel #main-header header img {
-  position: absolute;
-}
-#moist-gel #main-header img#banner-crown {
-  top: 0;
-  left: 0;
-}
-#moist-gel #main-header img#banner-header1 {
-  top: 86px;
-  left: 232px;
-}
-#moist-gel #main-header img#banner-header2 {
-  top: 170px;
-  left: 232px;
-}
-#moist-gel #main-header ul {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-}
-#moist-gel #main-header ul li {
-  float: left;
-  margin-right: 7px;
-}
-#moist-gel #reason section {
-  margin-bottom: 20px;
-}
-
-/* クレンジングLP */
-#cleansing #main-header {
-  z-index: -999;
-  height: 1190px;
-  background: #FFF url('../images/cleansing/background.jpg') no-repeat scroll center 0;
-}
-#cleansing #main-header div {
-  position: relative;
-}
-#cleansing #main-header header {
-  height: 610px;
-}
-#cleansing #main-header img,
-#cleansing .main-offer img {
-  position: absolute;
-}
-#cleansing #main-header img#banner-header-icon {
-  top: 30px;
-  left: 150px;
-}
-#cleansing #main-header img#banner-header1 {
-  top: 30px;
-  left: 325px;
-}
-#cleansing #main-header img#banner-header2 {
-  top: 221px;
-  left: 303px;
-}
-#cleansing #main-header img#banner-header3 {
-  top: 318px;
-  left: 131px;
-}
-#cleansing #main-header img#banner-header4 {
-  top: 427px;
-  left: 130px;
-}
-#cleansing .main-offer {
-  position: relative;
-  height: 580px;
-  margin-left: auto;
-  margin-right: auto;
-  background-image: url('../images/cleansing/header-main-offer.png');
-  background-color: rgba(255,255,255,0);
-  background-repeat: no-repeat;
-  overflow: visible;
-}
-#cleansing .main-offer img {
-  position: absolute;
-  top: 85px;
-  left: 25px;
-  margin: 0;
-}
-#cleansing .main-offer a img {
-  top: 460px;
-  left: 30px;;
-}
-
-#cleansing .sub-offer {
-  margin-top: 80px;
-}
-#cleansing #no-double-cleansing div {
-  margin-top: 50px;
-}
-#cleansing #offer-long {
-  padding-top: 80px;
-}
 article div:last-child {
   padding-bottom: 40px;
 }
@@ -284,4 +182,161 @@ footer a:hover {
 div#script {
   line-height: 0;
   font-size: 0;
+}
+
+/* ゲルLP */
+#moist-gel #main-header {
+  margin-bottom: 0;
+  background: #FFF url('../images/gel/background.jpg') no-repeat scroll center 0;
+}
+#moist-gel #main-header div {
+  position: relative;
+  height: 520px;
+  padding-bottom: 0;
+}
+#moist-gel #main-header header img {
+  position: absolute;
+}
+#moist-gel #main-header img#banner-crown {
+  top: 0;
+  left: 0;
+}
+#moist-gel #main-header img#banner-header1 {
+  top: 86px;
+  left: 232px;
+}
+#moist-gel #main-header img#banner-header2 {
+  top: 170px;
+  left: 232px;
+}
+#moist-gel #main-header ul {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+}
+#moist-gel #main-header ul li {
+  float: left;
+  margin-right: 7px;
+}
+#moist-gel #reason section {
+  margin-bottom: 20px;
+}
+
+/* クレンジングLP共通 */
+#cleansing #main-header div,
+#pore #main-header div {
+  position: relative;
+}
+#cleansing #main-header header,
+#pore #main-header header {
+  height: 610px;
+}
+#cleansing #main-header img,
+#pore #main-header img {
+  position: absolute;
+}
+/* クレンジング年齢ギャップ */
+#cleansing #main-header {
+  z-index: -999;
+  height: 1190px;
+  background: #FFF url('../images/gap/background.jpg') no-repeat scroll center 0;
+}
+#cleansing #main-header img#banner-header-icon {
+  top: 30px;
+  left: 150px;
+}
+#cleansing #main-header img#banner-header1 {
+  top: 30px;
+  left: 325px;
+}
+#cleansing #main-header img#banner-header2 {
+  top: 221px;
+  left: 303px;
+}
+#cleansing #main-header img#banner-header3 {
+  top: 318px;
+  left: 131px;
+}
+#cleansing #main-header img#banner-header4 {
+  top: 427px;
+  left: 130px;
+}
+#cleansing .main-offer,
+#pore .main-offer {
+  position: relative;
+  height: 580px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../images/cleansing/header-main-offer.png');
+  background-color: rgba(255,255,255,0);
+  background-repeat: no-repeat;
+  overflow: visible;
+}
+#cleansing .main-offer img,
+#pore .main-offer img {
+  position: absolute;
+  top: 85px;
+  left: 25px;
+  margin: 0;
+}
+#cleansing .main-offer a img,
+#pore .main-offer a img {
+  top: 460px;
+  left: 30px;;
+}
+
+#cleansing .sub-offer {
+  margin-top: 80px;
+}
+#cleansing #no-double-cleansing div {
+  margin-top: 50px;
+}
+#cleansing #offer-long {
+  padding-top: 80px;
+}
+
+/* pore */
+#pore #main-header {
+  z-index: -999;
+  height: 1190px;
+  background: #FFF url('../images/pore/background.jpg') no-repeat scroll center 0;
+}
+#pore #main-header img#banner-header-icon {
+  top: 30px;
+  left: 70px;
+}
+#pore #main-header img#banner-header1 {
+  top: 240px;
+  left: 70px;
+}
+#pore #main-header img#banner-header2 {
+  top: 405px;
+  left: 70px;
+}
+#pore #measure1 {
+  padding-bottom: 80px;
+}
+#pore #measure1 section > img {
+  margin-bottom: 35px;
+}
+#pore #measure1 ol li {
+  margin-bottom: 15px;
+}
+#pore #measure1 ol li:last-child {
+  margin-bottom: 0;
+}
+#pore #measure2 {
+  padding-bottom: 80px;
+}
+#pore #measure2 header {
+  background-color: rgb(233,83,119);
+}
+#pore #measure2 h3 {
+  width: 970px;
+  margin: 0 auto;
+}
+#pore #measure2 section > img:first-child,
+#pore #measure2 li {
+  margin-bottom: 30px
 }
