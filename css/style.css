@@ -297,6 +297,9 @@ div#script {
 }
 
 /* pore */
+#pore #global-header {
+  height: 50px;
+}
 #pore #main-header {
   z-index: -999;
   height: 1190px;
@@ -316,6 +319,9 @@ div#script {
 }
 #pore #measure1 {
   padding-bottom: 80px;
+}
+#pore #measure1 header {
+  background-color: rgb(23,28,97);
 }
 #pore #measure1 section > img {
   margin-bottom: 35px;
@@ -339,4 +345,11 @@ div#script {
 #pore #measure2 section > img:first-child,
 #pore #measure2 li {
   margin-bottom: 30px
+}
+#pore #enquete .monitor-opinion {
+  font-size: 20px;
+  line-height: 1.8em;
+}
+#pore #blogger .left {
+  line-height: 1.8em;
 }
