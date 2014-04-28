@@ -62,9 +62,25 @@ div.bg-white {
 .bg-pink {
     background-color: rgb(255,233,236);
 }
+.bg-deep-pink {
+    background-color: rgb(255,227,225);
+}
 .bg-blue {
     background-color: rgb(187,219,243);
 }
+.bg-yellow {
+    background-color: rgb(255,250,235);
+}
+.bg-green {
+    background-color: rgb(248,248,206)
+}
+.bg-dark-blue {
+    background-color: rgb(23,28,97);
+}
+.bg-light-blue {
+    background-color: rgb(221,233,247);
+}
+
 .btn.small {
     width: 280px;
     margin: 0 auto;
@@ -159,4 +175,64 @@ div#script {
 }
 #gel #blogger2 {
     top: -90px;
+}
+/* スマホ毛穴案 */
+#pore #care {
+    margin-bottom: 0;
+}
+#pore #care.bg-dark-blue {
+    padding: 0;
+}
+#pore #care.bg-dark-blue > header {
+    height: 35px;
+}
+#pore #care .bg-light-blue {
+    margin-bottom: 0;
+}
+#pore #no-repeat li {
+    margin-bottom: 15px;
+}
+#pore #enquete {
+    position: relative;
+    margin-bottom: 0;
+}
+#pore #enquete .bg-green {
+    margin-bottom: 0;
+}
+#pore #enquete > div > section {
+    margin-bottom: 0;
+}
+#pore .voice {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    font-size: 12px;
+}
+#pore .blogger {
+    position: relative;
+    height: 0;
+    overflow: visible;
+    text-align: center;
+    font-size: 13px;
+}
+#pore #voice1 {
+    top: -917px;
+}
+#pore #voice2 {
+    top: -720px;
+}
+#pore #voice3 {
+    top: -525px;
+}
+#pore #blogger1 {
+    top: -295px;
+}
+#pore #blogger2 {
+    top: -80px;
+}
+#pore #doctor header,
+#pore #doctor div,
+#pore #qa header,
+#pore #qa div {
+    margin-bottom: 25px;
 }
